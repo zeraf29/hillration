@@ -1,0 +1,11 @@
+
+
+hillration:
+  adapter:
+    network:
+      rest:
+        read-timeout: 5000
+        connect-timeout: 3000
+        max-connection-total: 10
+        max-connection-per-route: 5
+
